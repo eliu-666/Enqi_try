@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simCtrl>
+	<dt>2e-6</dt>
+
+	<exportIter>50000</exportIter>
+	<reportIter>1000</reportIter>
+
+	<startTime>0</startTime>
+	<endTime>1</endTime>
+
+	<gravity>0.0 0 -9.81</gravity>
+
+	<boundingBoxMin>-0.105 -0.035 -0.105</boundingBoxMin>
+	<boundingBoxMax>0.105 0.035 0.105</boundingBoxMax>
+	<verbose>9</verbose>
+</simCtrl>

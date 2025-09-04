@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prototype Name="spheres_cold">
+	<Sphere/>
+	<PerElement>
+		<velocity type="Math::Vector" flags="SAVE|RESTORE"/>
+		<omega type="Math::Vector" flags="SAVE|RESTORE"/>
+		<boundingRadius type="double" flags="SAVE">0.002</boundingRadius>
+		<surfaceArea type="double" flags="SAVE|RESTORE">0.000050265485</surfaceArea>				
+		<surfaceTemperature type="double" rank="1" dim="1" flags="SAVE|RESTORE">299.452</surfaceTemperature>	
+		<innerTemperature type="double" rank="1" dim="1" flags="SAVE|RESTORE">299.452</innerTemperature>		
+		<resultingForces type="Math::Vector" flags="SAVE"/>
+		<resultingTorques type="Math::Vector" flags="SAVE"/>
+		<resultingHeat type="double" rank="1" dim="1" flags="SAVE"/>
+		<theta type="double" flags="SAVE|RESTORE|PARALLEL"/>
+	</PerElement>
+	<Constant>
+		<density type="double" flags="SAVE">2000</density>
+		<conductivity type="double" flags="SAVE">237</conductivity>
+		<poissons_ratio type="double" flags="SAVE">0.33</poissons_ratio>
+		<heatCapacity type="double" flags="SAVE">900.0</heatCapacity>
+		<youngs_modulus type="double" flags="SAVE">7e010</youngs_modulus>
+		<emissivity type="double" flags="SAVE">0.09</emissivity>	
+		<skinDistance type="double" flags="NONE">0.0001</skinDistance>	
+	</Constant>
+</Prototype>

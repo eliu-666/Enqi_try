@@ -1,0 +1,18 @@
+<Specials>
+    <Neighbour>
+        <CGrid>
+            <Parameter>
+                <CellSize>0.0035</CellSize>
+                <ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </CGrid>
+    </Neighbour>
+
+    <Contact>
+        <DefaultContact>
+            <Parameter>
+                <ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </DefaultContact>
+    </Contact>
+</Specials>

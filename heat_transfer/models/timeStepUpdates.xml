@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TimeStepUpdates>
+    <MotionUpdateSphere>
+        <cfg>
+            <Prototype>spheres_cold</Prototype>
+            <Parameter>
+                <ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </cfg>
+        <cfg>
+            <Prototype>spheres_hot</Prototype>
+            <Parameter>
+                <ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </cfg>
+    </MotionUpdateSphere>
+    
+	<UniformThermoUpdate>
+		<cfg>
+			<Prototype>spheres_cold</Prototype>
+			<Parameter>
+				<ExecuteEvery>1</ExecuteEvery>
+			</Parameter>
+		</cfg>		
+		<cfg>
+			<Prototype>spheres_hot</Prototype>
+			<Parameter>
+				<ExecuteEvery>1</ExecuteEvery>			
+			</Parameter>
+		</cfg>
+	</UniformThermoUpdate>	
+    
+	<ForcedRotationAroundAxisBoundary>
+		    <cfg>
+		        <Prototype>walls</Prototype>
+		        <Parameter>
+		            <unit>rps</unit>
+		            <axisDirection>0.0 0.0 1.0</axisDirection>
+		            <centreOfRotation>0.0 0.0 0.0 </centreOfRotation>
+		            <forcedConditions>
+		                <cfg time="0">
+		                    <rotationSpeed>1.2564</rotationSpeed>
+		                </cfg>
+			    </forcedConditions>
+		            <ExecuteEvery>1</ExecuteEvery>
+		        </Parameter>
+		    </cfg>
+	</ForcedRotationAroundAxisBoundary>
+		
+</TimeStepUpdates>
+
+

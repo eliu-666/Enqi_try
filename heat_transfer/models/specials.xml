@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Specials>
+    <Neighbour>
+        <CGrid>
+            <Parameter>
+			<CellSize>0.006</CellSize>
+			<ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </CGrid>
+    </Neighbour>
+
+    <Contact>
+        <DefaultContact>
+            <Parameter>
+                <ExecuteEvery>1</ExecuteEvery>
+            </Parameter>
+        </DefaultContact>
+    </Contact>
+    
+</Specials>

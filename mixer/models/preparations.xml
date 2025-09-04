@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Preparations>
+  <MechanicPreparationSphere>
+      <cfg>
+          <Prototype>spheres_cold</Prototype>
+          <Parameter>
+              <ExecuteEvery>1</ExecuteEvery>
+          </Parameter>
+      </cfg>
+      <cfg>
+          <Prototype>spheres_hot</Prototype>
+          <Parameter>
+              <ExecuteEvery>1</ExecuteEvery>
+          </Parameter>
+      </cfg>
+  </MechanicPreparationSphere>
+</Preparations>

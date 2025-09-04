@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prototype>
+	<Boundary file="walls.obj"/>
+	<PerElement>
+		<mass type="double" flags="NONE"/>
+		<boundingRadius type="double" flags="NONE"/>
+		<velocity type="Math::Vector" flags="NONE"/>
+		<omega type="Math::Vector" flags="NONE"/>
+		<resultingForces type="Math::Vector" flags="NONE"/>
+		<resultingTorques type="Math::Vector" flags="NONE"/>
+		<resultingHeat type="double" rank="1" dim="1" flags="SAVE"/>
+		<surfaceTemperature type="double" rank="1" dim="1" flags="SAVE|RESTORE|PARALLEL">308.94</surfaceTemperature>
+	</PerElement>
+	<Constant>
+		<density type="double" flags="SAVE">40.0</density>
+		<conductivity type="double" flags="SAVE">0.035</conductivity>
+		<poissons_ratio type="double" flags="SAVE">0.35</poissons_ratio>
+		<heatCapacity type="double" flags="SAVE">1500.0</heatCapacity>
+		<youngs_modulus type="double" flags="SAVE">4e6</youngs_modulus>
+		<emissivity type="double" flags="SAVE">0.35</emissivity>       
+		<skinDistance type="double" flags="NONE">0.0001</skinDistance>	
+	</Constant>
+</Prototype>
