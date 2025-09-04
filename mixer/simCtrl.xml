@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <simCtrl>
-	<dt>2e-6</dt>
+	<dt>1e-6</dt>
 
-	<exportIter>50000</exportIter>
-	<reportIter>1000</reportIter>
+	<exportIter>100000</exportIter>
+	<reportIter>5000</reportIter>
 
 	<startTime>0</startTime>
-	<endTime>1</endTime>
+	<endTime>10</endTime>
 
 	<gravity>0.0 0 -9.81</gravity>
 

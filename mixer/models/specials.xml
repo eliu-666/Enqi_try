@@ -2,7 +2,7 @@
     <Neighbour>
         <CGrid>
             <Parameter>
-                <CellSize>0.0035</CellSize>
+                <CellSize>0.005</CellSize>
                 <ExecuteEvery>1</ExecuteEvery>
             </Parameter>
         </CGrid>
